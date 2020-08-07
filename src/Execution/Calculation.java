@@ -24,7 +24,7 @@ public class Calculation {
     }
 
     private String arabicToRomanNumbers(int arabicToRoman) {
-        if(arabicToRoman < 0){
+        if (arabicToRoman < 0) {
             arabicToRoman *= -1;
             return "-" + RomanAndArabicNumbersConversion.getArabicNumber(arabicToRoman);
         }

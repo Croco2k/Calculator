@@ -8,6 +8,7 @@ public class CalculatorMain {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         InputDataConditions.getOutput(input);
+        main(args);
         scanner.close();
     }
 }
